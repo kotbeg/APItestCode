@@ -5,7 +5,7 @@ The stack used:
 - axios (request library)
 - mocha-reporter (a slightly better reporting library)
 
-For running the code need to:
+Steps to run the code:
 1. Pull the code from github from <https://github.com/kotbeg/APItestCode.git>
 2. Step into the project
 3. Install mocha <brew install mocha>
@@ -46,11 +46,6 @@ The following metrics will be gathered during the testing:
 <a name="jmeterparams"></a>
  - Testing Tool: Apache JMeter. That allows, among other parameters, to set the number of threads (concurrent requests) and loops (repetitions) as well as the ramp-up period (that allows to gradually add the load).
  - Scripting Language: JavaScript (Node.js).
-#### Alternative Test Environment:
- - Testing Tool: Axios for making API requests.
- - Scripting Language: JavaScript (Node.js).
- - Concurrency Control: Use of Promise.all to simulate concurrent requests.
- - Monitoring Tools: System monitoring tools (e.g., top, htop) to track CPU and memory usage, or [AMP Tools](#amptools) section.
 #### Test Scenarios:
     - The main scenario:
         - Need to make sure that all types of requests are present
@@ -107,3 +102,7 @@ In some cases services such as Amazon CloudWatch can be used.
 <a name="bisectionmethod"></a>
 ##### Note:
 The Bisection Method works by repeatedly narrowing down the interval where the root lies.
+
+##### Alternative Test Environment:
+There are many alternatives to JMeter, such as LoadRunner, Locust, Artillery and Blazemeter. 
+ 
