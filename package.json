@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test.js"
+    "test": "mocha test.js --reporter mocha-reporter --all"
   },
   "keywords": [],
   "author": "",
@@ -12,11 +12,14 @@
   "devDependencies": {
     "chai": "^5.1.1",
     "mocha": "^10.7.0",
+    "mocha-foo-reporter": "^0.0.1",
     "supertest": "^7.0.0"
   },
   "dependencies": {
     "axios": "^1.7.2",
     "express": "^4.19.2",
+    "jest": "^29.7.0",
+    "mocha-reporter": "^0.1.1",
     "request": "^2.88.2"
   }
 }

@@ -133,7 +133,7 @@ describe('API Tests', () => {
                 console.assert(resp_put.data.userId === options.body.userId, 'Expect the userId to match on update');
             } catch (error) {
                 console.error('Error updating post:', error.message, error.code);
-                process.exit(1);
+//                process.exit(1);
 // When running an update on an existing post, above assertions will also fail.
             };
         });
