@@ -3,12 +3,15 @@ API test code for the test challenge
 The stack used:
 - mocha (alternative to jest)
 - axios (request library)
+- mocha-reporter (a slightly better reporting library)
 
 For running the code need to:
-1. Install mocha <brew install mocha>
-2. Install axios <brew install axios>
-3. Pull the code from github from <https://github.com/kotbeg/APItestCode.git>
-4. Run the mocha tests by typing <npm test>
+1. Pull the code from github from <https://github.com/kotbeg/APItestCode.git>
+2. Step into the project
+3. Install mocha <brew install mocha>
+4. Install axios <brew install axios>
+5. Install mocha-reporter <npm install mocha-reporter>
+6. Run the mocha tests by typing <npm test> in command line.
 
 ## Performance test plan:
 This performance test plan outlines the objectives, scope, methodology, and tools to evaluate the performance of the JSONPlaceholder API, a free online REST API for testing and prototyping.
