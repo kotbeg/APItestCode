@@ -14,7 +14,7 @@ Steps to run the code:
 6. Run the mocha tests by typing <npm test> in command line.
 
 ## Performance test plan:
-This performance test plan outlines the objectives, scope, methodology, and tools to evaluate the performance of the JSONPlaceholder API, a free online REST API for testing and prototyping.
+This performance test plan outlines the objectives, scope, methodology, and tools to evaluate the performance of the JSONPlaceholder API.
 
 #### Objectives
 The primary objectives of the performance testing are:
@@ -86,15 +86,15 @@ The following metrics will be gathered during the testing:
     - Run stress test, and set the load just under the breaking point.
     - Can set the endurance test to run every night or week, depending on the demand (CI configurable)
     - Can use a plugin for execution, or add to the config file (for whatever CI is used) and set it to run on commit
- - _Analyze Results_: With APM can set up warning for the failed tests as well as ban merges on failed tests.
+ - _Analyze Results_: With [APM](#apm-tools) can set up warning for the failed tests as well as ban merges on failed tests.
 #### Reporting:
 After the completion of the tests, a report should be generated containing the following:
  - Summary of test objectives and scope.
  - Detailed results for each test scenario.
  - Observations on response times, throughput, and error rates.
  - Recommendations for performance improvements if necessary/possible.
-<a name="amptools"></a>
-#### AMP tools:
+<a name="apmtools"></a>
+#### APM tools:
 There is a number of tools available, such as AppDynamics, DataDog, Dynatrace, to name a few.
 Depending on what format and detail is needed for the reports, analytics and alerts, the choice can be made.
 In some cases services such as Amazon CloudWatch can be used.
